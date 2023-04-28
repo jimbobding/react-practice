@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
-function App() {
+import "./App.css";
+import MyComponent from "./components/MyComponent";
+import Trainer from "./components/Trainer";
+import PropComp from "./components/PropComp";
+import ComponentWithProps from "./components/ComponentWithProps";
+import Counter from "./components/Counter";
+import Convertor from "./components/Convertor";
+import Cat from "./components/Cat";
+import Login from "./components/Login";
+import CarComponent from "./components/CarComponent";
+import NewCounter from "./components/NewCounter";
+import trainers from "./trainers.json";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      {/* {trainers.map(({ name, age, id }) => (
+        <Trainer key={id} name={name} age={age} />
+      ))} */}
 
+      <NewCounter />
+    </>
+  );
+};
 export default App;
