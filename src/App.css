@@ -3,10 +3,14 @@ body {
 }
 
 h1 {
-  color: red;
+  color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 1px 1px 2px black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -52,4 +56,13 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   gap: 2rem;
+}
+
+.navbar {
+  box-shadow: 1px 1px 2px black;
+}
+
+.nav-item:hover {
+  font-size: 20px;
+  color: red;
 }

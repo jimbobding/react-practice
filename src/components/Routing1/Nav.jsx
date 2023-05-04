@@ -58,6 +58,16 @@ const Nav = () => {
                   Photos
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/todo">
+                  To Do
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/users">
+                  Users
+                </a>
+              </li>
             </ul>
           </div>
         </div>

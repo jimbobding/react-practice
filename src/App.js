@@ -8,7 +8,12 @@ import Home from "./components/Routing1/Home";
 import Comments from "./components/Routing1/Comments";
 import Albums from "./components/Routing1/Albums";
 import Photos from "./components/Routing1/Photos";
+import ToDo from "./components/Routing1/ToDo";
+import Users from "./components/Routing1/Users";
 import Nav from "./components/Routing1/Nav";
+
+import Film from "./components/DataRequest/Film";
+
 // import Contact from "./components/Routing/Contact";
 
 // import MyComponent from "./components/MyComponent";
@@ -32,7 +37,7 @@ import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Nav />
         <Route path="/" exact>
           <Home />
@@ -49,7 +54,14 @@ const App = () => {
         <Route path="/photos">
           <Photos />
         </Route>
-      </BrowserRouter>
+        <Route path="/todo">
+          <ToDo />
+        </Route>
+        <Route path="/users">
+          <Users />
+        </Route>
+      </BrowserRouter> */}
+      <Film />
     </>
   );
 };

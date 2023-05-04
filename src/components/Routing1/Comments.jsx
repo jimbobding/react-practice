@@ -6,8 +6,8 @@ const Posts = () => {
   const myKey = Object.keys(myD);
   return (
     <>
+      <h1>Comments</h1>
       <Table bordered striped variant="dark">
-        <h1>Comments</h1>
         <thead>
           <tr>
             {myKey.map((key) => (

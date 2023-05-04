@@ -8,6 +8,7 @@ const Photos = () => {
   const myKey = Object.keys(myD);
   return (
     <>
+      <h1>Photos</h1>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div className="photo-container">
           {photosData.map((data, index) => (
