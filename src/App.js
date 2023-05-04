@@ -6,6 +6,8 @@ import "./App.css";
 import Posts from "./components/Routing1/Posts";
 import Home from "./components/Routing1/Home";
 import Comments from "./components/Routing1/Comments";
+import Albums from "./components/Routing1/Albums";
+import Photos from "./components/Routing1/Photos";
 import Nav from "./components/Routing1/Nav";
 // import Contact from "./components/Routing/Contact";
 
@@ -40,6 +42,12 @@ const App = () => {
         </Route>
         <Route path="/comments">
           <Comments />
+        </Route>
+        <Route path="/albums">
+          <Albums />
+        </Route>
+        <Route path="/photos">
+          <Photos />
         </Route>
       </BrowserRouter>
     </>

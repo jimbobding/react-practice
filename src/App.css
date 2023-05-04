@@ -35,3 +35,21 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2rem;
+}
+
+.card {
+  width: 50%;
+}
+
+.photo-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 2rem;
+}

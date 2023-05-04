@@ -1,4 +1,5 @@
 import { Table } from "reactstrap";
+import { Card } from "reactstrap";
 import postsData from "../PostsData.json";
 
 const Posts = () => {
@@ -8,6 +9,7 @@ const Posts = () => {
     <>
       <Table bordered striped variant="dark">
         <h1>Posts</h1>
+
         <thead>
           <tr>
             {myKey.map((key) => (
