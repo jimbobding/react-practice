@@ -32,6 +32,8 @@ import Film from "./components/DataRequest/Film";
 // import Game from "./components/Game";
 // import Parse from "./components/Parse";
 // import Shopping from "./components/Shopping";
+
+import HomePage from "./components/HomePage";
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 const App = () => {
@@ -61,7 +63,8 @@ const App = () => {
           <Users />
         </Route>
       </BrowserRouter> */}
-      <Film />
+      {/* <Film /> */}
+      <HomePage />
     </>
   );
 };

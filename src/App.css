@@ -66,3 +66,14 @@ h1 {
   font-size: 20px;
   color: red;
 }
+
+.caro {
+  background-color: #fc0;
+  width: 100vw;
+  margin-top: 30px;
+}
+
+.carousel-img {
+  height: 25vh;
+  width: auto;
+}
